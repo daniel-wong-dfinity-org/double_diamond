@@ -1,0 +1,11 @@
+[package]
+
+name = "a"
+edition = "2021"
+version = "0.0.1"
+
+
+[dependencies]
+b = { path = "../b" }
+c = { path = "../c" }
+base64 = "=0.22.1"
